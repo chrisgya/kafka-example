@@ -1,0 +1,18 @@
+spring:
+  kafka:
+    bootstrap-servers: 'localhost:9092'
+    consumer.group-id: myGroup
+    user.group-id: myUser
+
+my:
+  kafka:
+    topic-1: my-1
+    topic-2: my-2
+    topic-3: my-3
+    topic-4: my-user
+
+logging:
+  level:
+    org:
+      apache:
+        kafka: WARN
